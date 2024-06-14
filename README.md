@@ -16,7 +16,7 @@
 (firebaseURL의 경우, Firebase Realtime Database 상단의 URL을 적으면 됨.)
 
 ### noticeCronJob.js 함수 호출
-- Crontab 설정 진입
+- Crontab 설정 진입 커맨드
   - crontab -e
 - 진입한 파일에 설정 추가 및 저장
   - */30 * * * * /usr/bin/node /home/ubuntu/server/noticeCronJob.js
