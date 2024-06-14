@@ -17,6 +17,6 @@
 
 ### noticeCronJob.js 함수 호출
 - Crontab 설정 진입
-crontab -e
+  - crontab -e
 - 진입한 파일에 설정 추가 및 저장
-*/30 * * * * /usr/bin/node /home/ubuntu/server/noticeCronJob.js
+  - */30 * * * * /usr/bin/node /home/ubuntu/server/noticeCronJob.js
